@@ -1,7 +1,7 @@
 FROM databricksruntime/standard:latest
 
 # Adapted image from databricksruntime/rbase:
-# Installs R 2.6.0, avoiding a firewall issue with signing apt for some users
+# Installs R 3.6.0, avoiding a firewall issue with signing apt for some users
 # Installs rstan
 
 RUN apt-get update && apt-get install -y software-properties-common \
