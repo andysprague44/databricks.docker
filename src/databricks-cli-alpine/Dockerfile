@@ -13,4 +13,5 @@ RUN apk update && apk add bash
 RUN pip install --upgrade pip
 RUN pip install --upgrade databricks-cli
 
+
 CMD ["/bin/bash"]
