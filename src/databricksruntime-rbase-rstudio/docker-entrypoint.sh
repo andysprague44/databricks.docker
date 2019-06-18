@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [[ $DB_IS_DRIVER = "TRUE" ]]; then
     echo "Starting the rstudio daemon"

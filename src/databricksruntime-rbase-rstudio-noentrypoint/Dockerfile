@@ -14,7 +14,7 @@ COPY ./install_packages.R /
 RUN Rscript /install_packages.R '2019-06-17'
 
 # Set entry point to start rstudio daemon (on master only)
-COPY ./docker-entrypoint.sh /
-ENTRYPOINT ["/docker-entrypoint.sh"]
+#COPY ./docker-entrypoint.sh /
+#ENTRYPOINT ["/docker-entrypoint.sh"]
 
 CMD ["R"]
