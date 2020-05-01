@@ -1,0 +1,5 @@
+name: databricks-cli
+channels:
+    - conda-forge
+dependencies:
+  - databricks-cli
